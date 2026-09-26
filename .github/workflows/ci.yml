@@ -46,4 +46,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DH_USERNAME }}/pensionat-booking:latest
+          tags: ${{ secrets.DH_USERNAME }}/pensionat-booking:canary
