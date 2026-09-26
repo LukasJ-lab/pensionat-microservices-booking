@@ -125,8 +125,6 @@ public class BookingServiceTest {
         boolean result = bookingService.checkRoomAvailability(roomId, newStartDate, newEndDate, b1.getId());
         assertFalse(result);
     }
-
-    //TODO
     /*
     @Test
     public void cancelBookingSetsStatusToCancelled(){
